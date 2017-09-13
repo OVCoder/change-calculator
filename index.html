@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" type = "text/css" href="styles.css"/>
+  </head>
+  <body>
+    
+    <h1> Change Calculator</h1>
+    <div class="container">
+    <div class="totals">
+      <p> How much is due for the sale?</p>
+      <input id="amount-due" placeholder="$"/>
+      <br/>
+    </div>
+    <div class="totals">
+      
+      <p> How much has the customer given to you?</p>
+      <input id="amount-received" placeholder="$"/>
+      <br/>
+    </div>
+    </div>
+    <br/>
+      <button id="calculate-change" onclick="changeCalculator()">Calculate</button>
+      <div id="dollars">
+      <p> Dollars <p id="dollars-output"></p></p>
+      </div>
+    <br/>
+
+      <div id="change">
+        <div class="allChange">
+          <p> Quarters <p id="quarters-output"></p></p>
+        </div>
+        <div class="allChange">
+          <p> Dimes <p id="dimes-output"></p></p>
+        </div>
+        <div class="allChange">
+          <p> Nickels<p id="nickels-output"></p></p>
+        </div>
+        <div class="allChange">
+          <p> Pennies <p id="pennies-output"></p></p>
+        </div>
+      </div>
+      <div id="dollars">
+      <p> Total Change</p>
+      <output id="calculatedTotalChange"></output>
+      </div>
+    
+    <script src="main.js" charset="utf-8"></script>
+  <footer>
+    <img src="change.jpg" id="changeImage"alt="money"/>
+  </footer>    
+  </body>
+</html>

@@ -1,0 +1,1 @@
+This Change Calculator accepts two inputs: the total amount of the sale and the amount tendered by the customer. Then, it calculates the amount of change due in dollars, quarters, dimes, nickels and pennies.
